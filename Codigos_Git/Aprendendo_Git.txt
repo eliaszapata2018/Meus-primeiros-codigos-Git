@@ -1,0 +1,30 @@
+Versionamento de códigos
+
+Comandos básicos:
+
+- ls Lista o conteúdo de um diretório
+- ls -a Lista os diretórios, arquivos oculto e executáveis
+- pwd Mostra o diretório corrente
+- cd [caminho] Muda de diretório
+- cd .. Volta um diretório acima
+- cd ~ Volta para seu diretório /home
+- mkdir [pasta] Cria uma pasta com o nome desejado
+- mkdir [pasta1] [pasta2] Cria pasta1 e pasta2 ao mesmo tempo
+- mkdir 'Pasta Separada' Cria 1 única pasta com o nome Pasta Separada
+- mkdir -p [pasta]/[sub-pasta] Cria um diretório e um sub-diretório
+- rm -r [pasta/arquivo] Deleta uma pasta ou arquivo
+- mv [velho] [novo] Renomear uma pasta ou arquivo
+- mv [arquivo] [caminho] Move o arquivo para um determinado caminho
+- cp [arquivo] [caminho] Copia um arquivo para um determinado caminho
+- echo [mensagem] Exibe uma mensagem em seu shell
+- cat Escreve no terminal (Ctrl+D em uma linha vazia para sair)
+- cat > [arquivo] Escreve no terminal, cria ‘arquivo’ e salva nele
+- cat >> [arquivo] Escreve no terminal, salva no final do ‘arquivo’
+- cat [arquivo] Mostra conteúdo do arquivo no terminal
+- touch [arquivo] Cria um arquivo
+- help [comando] Ajuda do ‘comando’
+- man [comando] Manual do ‘comando’
+- clear Limpa o terminal
+- history Ver o histórico de comandos
+- history [n] Ver os ‘n’ últimos comandos
+- history -c Apagar o histórico
