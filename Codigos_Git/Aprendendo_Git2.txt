@@ -1,0 +1,28 @@
+Configurando o GIT
+
+Vamos começar dizendo para o GIT quem nós somos e definindo isso globalmente
+git config --global user.name ‘[seu nome]’
+git config --global user.email [‘seu@email.com]’
+
+Primeiros comandos para um repositório local:
+
+Para iniciar um repositório local:
+git init
+
+Para ver o status do repositório local:
+git status
+
+Mudando o status de um arquivo:
+
+Adicionando um arquivo para o Stage:
+git add [arquivo] Adiciona arquivo específico
+git add . Adiciona todos os arquivos
+Retira arquivo do Stage:
+git rm --cached [arquivo] Remove arquivo não rastreado do staged
+git restore --staged [arquivo] Remove arquivo modificado do staged
+git restore --staged .
+Commita/Envia o Stage:
+git commit -m ‘[Mensagem]’ Commita com a Mensagem escolhida
+git commit -am ‘[Mensagem]’ Adiciona todos os arquivos modificados e
+commita com a Mensagem escolhida
+
