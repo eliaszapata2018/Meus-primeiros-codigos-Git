@@ -1,0 +1,39 @@
+USANDO BRANCHES
+
+Vendo os branches:
+git branch
+Criar uma branch:
+git checkout -b [nome]
+git checkout -b [nova] [antiga]
+Mudar para outra branch:
+git checkout [nome]
+Para apagar um branch:
+git branch -d [nome]
+
+
+USANDO O MERGE/FUSÃO
+
+Vantagem:
+- Operação não destrutiva
+- Histórico real
+Desvantagem:
+- Commit extra
+- Histórico poluído
+Usando o merge:
+git merge [branch]
+Forma interessante de ver:
+git log --pretty=oneline --graph
+
+
+USANDO REBASE
+
+Vantagem:
+- Sem commit extra
+- Histórico linear
+Desvantagem:
+- Perde ordem cronológica
+- Pode ter conflitos com outros desenvolvedores
+Usando o rebase:
+git rebase [branch]
+Dica para visualizar o log:
+git log --pretty=oneline --graph
